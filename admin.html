@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin — Pono Law Group</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo-wrap"><svg width="40" height="36" viewBox="0 0 40 36" fill="none">
+  <path d="M4 32 L20 4 L36 32 Z" stroke="#C0A062" stroke-width="2" fill="none"/>
+  <text x="20" y="26" text-anchor="middle" font-family="Playfair Display,serif" font-weight="700" font-size="10" fill="#C0A062">PONO</text>
+</svg><span>Pono Law Group</span></a>
+    <nav><ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li><li><a href="services.html">Practice Areas</a></li><li><a href="about.html">About</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="blog.html">Blog</a></li><li><a href="booking.html">Consult</a></li><li><a href="faq.html">FAQ</a></li><li><a href="reviews.html">Reviews</a></li>
+    </ul></nav>
+    <div class="header-actions">
+      <button id="theme-toggle" class="btn-theme">🌙</button>
+      <a href="booking.html" class="btn-book">Free Consultation</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<main>
+  <div id="login-section"><div class="admin-login"><div class="admin-card">
+    <h1>Admin Login</h1><p>Pono Law Group staff portal.</p>
+    <form id="admin-login-form">
+      <div class="form-group"><label for="admin-pw">Password</label><input type="password" id="admin-pw" placeholder="Password" autocomplete="current-password"></div>
+      <p id="login-error" style="color:#DC2626;font-size:0.85rem;margin-bottom:0.75rem;"></p>
+      <button type="submit" class="btn-primary" style="width:100%;">Log In</button>
+    </form>
+    <p style="font-size:0.8rem;color:var(--text-muted);margin-top:1rem;text-align:center;">Demo: admin123</p>
+  </div></div></div>
+  <div id="admin-dash" class="admin-dash">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:2rem;flex-wrap:wrap;gap:1rem;">
+      <div><h1 style="font-family:var(--font-heading);font-size:1.8rem;color:var(--text);">Dashboard</h1><p style="color:var(--text-muted);">Pono Law Group — Honolulu, HI</p></div>
+      <a href="index.html" style="font-size:0.9rem;color:var(--accent);font-weight:700;">← View Site</a>
+    </div>
+    <div class="stats-grid">
+      <div class="stat-card"><div class="stat-num">28</div><div class="stat-label">Consultations (Month)</div></div>
+      <div class="stat-card"><div class="stat-num">12</div><div class="stat-label">Active Cases</div></div>
+      <div class="stat-card"><div class="stat-num">$41,200</div><div class="stat-label">Billings (Month)</div></div>
+      <div class="stat-card"><div class="stat-num">4.9★</div><div class="stat-label">Client Satisfaction</div></div>
+    </div>
+    <div class="admin-table-wrap"><h2>Upcoming Consultations</h2><table>
+      <thead><tr><th>Name</th><th>Practice Area</th><th>Date</th><th>Time</th><th>Format</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>Name Withheld</td><td>Family Law — Divorce</td><td>Jul 1, 2025</td><td>10:00 AM</td><td>In-Person</td><td><span class="badge badge-green">Confirmed</span></td></tr>
+        <tr><td>K. Yamamoto</td><td>Business Law — LLC</td><td>Jul 1, 2025</td><td>2:00 PM</td><td>Phone</td><td><span class="badge badge-green">Confirmed</span></td></tr>
+        <tr><td>L. Santos</td><td>Immigration — DACA</td><td>Jul 2, 2025</td><td>9:30 AM</td><td>Video</td><td><span class="badge badge-yellow">Pending</span></td></tr>
+        <tr><td>Nakamura Family</td><td>Estate Planning</td><td>Jul 3, 2025</td><td>1:00 PM</td><td>In-Person</td><td><span class="badge badge-green">Confirmed</span></td></tr>
+        <tr><td>T. Kahale</td><td>Real Estate — Landlord</td><td>Jul 3, 2025</td><td>3:00 PM</td><td>In-Person</td><td><span class="badge badge-yellow">To Confirm</span></td></tr>
+      </tbody>
+    </table></div>
+    <div class="admin-table-wrap"><h2>Recent Messages</h2><table>
+      <thead><tr><th>From</th><th>Subject</th><th>Date</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>prospective.client@gmail.com</td><td>Divorce consultation request — urgent</td><td>Jun 29, 2025</td><td><span class="badge badge-red">Unread</span></td></tr>
+        <tr><td>business.client@company.com</td><td>LLC operating agreement review</td><td>Jun 28, 2025</td><td><span class="badge badge-green">Replied</span></td></tr>
+        <tr><td>court.filing@hawaii.gov</td><td>Case filing confirmation</td><td>Jun 27, 2025</td><td><span class="badge badge-green">Read</span></td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</main>
+<script src="js/main.js"></script>
+
+  <!-- Powered by Design Holistically -->
+  <footer style="background:#111;color:#aaa;text-align:center;padding:1.5rem;font-size:0.85rem;font-family:sans-serif;">
+    <p>&copy; 2024. Powered by <a href="https://designholistically.com" target="_blank" rel="noopener" style="color:#fff;text-decoration:underline;">Design Holistically</a>. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
